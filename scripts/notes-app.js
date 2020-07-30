@@ -20,7 +20,7 @@ document.querySelector('#create-note').addEventListener('click', (e) => {
     })
 
     saveNotes(notes)
-    location.assign(`notes-app/edit.html#${id}`)
+    location.assign(`edit.html#${id}`)
 })
 
 
