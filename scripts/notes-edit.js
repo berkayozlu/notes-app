@@ -34,7 +34,7 @@ bodyEl.addEventListener('input', (e) => {
 // remove button
 removeEl.addEventListener('click', (e) => {
     removeNoteById(location.hash.substring(1))
-    location.assign('/index.html')
+    location.assign('index.html')
 })
 
 window.addEventListener('storage', (e) => {
@@ -44,7 +44,7 @@ window.addEventListener('storage', (e) => {
             return i.id === noteID
         })
         if (!note) {
-            location.assign('/index.html')
+            location.assign('index.html')
         }
         titleEl.value = note.title
         bodyEl.value = note.body
