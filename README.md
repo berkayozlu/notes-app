@@ -1,4 +1,5 @@
 A note taking app
+
 [+] Add notes
 
 [+] Edit notes that you created
