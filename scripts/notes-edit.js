@@ -9,7 +9,7 @@ let notes = getSavedNotes()
 const noteID = location.hash.substring(1)
 let note = notes.find((i) => i.id === noteID)
 if (!note) {
-    location.assign('/index.html')
+    location.assign('index.html')
 }
 titleEl.value = note.title
 bodyEl.value = note.body
